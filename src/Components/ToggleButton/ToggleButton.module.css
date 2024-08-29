@@ -1,0 +1,167 @@
+.toggleContainer {
+  --knob-size: 24px;
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.toggleInput {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  z-index: 2;
+  bottom: 100%;
+  border-radius: 50%;
+  transform: rotate(-25deg);
+  transform-origin: 50% 4.75em;
+  width: var(--knob-size);
+  height: var(--knob-size);
+  opacity: 0;
+
+  font: inherit;
+  transition: transform .24s cubic-bezier(.65, 1.35, .5, 1);
+  cursor: pointer;
+}
+
+.toggleInput:checked {
+  transform: rotate(25deg);
+}
+
+.toggleHandleWrapper {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 62.125%, transparent 50%);
+  mask-image: linear-gradient(to bottom, #000 62.125%, transparent 50%);
+  width: 150%;
+  overflow: hidden;
+}
+
+.toggleHandle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-25deg);
+  transform-origin: bottom center;
+  transition: transform .24s cubic-bezier(.65, 1.35, .5, 1);
+  cursor: pointer;
+}
+
+.toggleInput:checked + .toggleHandleWrapper > .toggleHandle {
+  transform: rotate(25deg);
+}
+
+.toggleHandleKnob {
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  width: var(--knob-size);
+  height: var(--knob-size);
+  background-image: radial-gradient(farthest-corner at 70% 30%, #ff97b1 4%, #ff488e 12% 24%, #ff245b 50% 65%, #ff0015 75%);
+  transition: transform .24s cubic-bezier(.65, 1.35, .5, 1);
+}
+
+.toggleInput:checked + .togglHandleWrapper .toggleHandleKnob {
+  transform: rotate(-90deg);
+  background-image: radial-gradient(farthest-corner at 70% 30%, #ffffff 4%, #61bdda 12% 24%, #4791b2 50% 65%, #61bdda 75%);
+}
+
+
+.toggleHandleKnob::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 8px 2px rgb(255 255 255 / .4);
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+@media (hover: hover) {
+  .toggleInput:hover + .toggleHandleWrapper .toggleHandleKnob::after,
+  .toggleInput:focus-visible + .toggleHandleWrapper .toggleHandleKnob::after {
+    opacity: 1;
+  }
+}
+
+.toggleHandleBarWrapper {
+  position: relative;
+  width: .25em;
+  height: 1.5em;
+}
+
+.toggleHandleBar {
+  position: absolute;
+  top: calc(var(--knob-size) / 2 * -1.75);
+  left: 0;
+  width: 100%;
+  height: calc(100% + var(--knob-size) / 2);
+  background-image: linear-gradient(to right, #777475, #a4a4a4, #fff 45% 55%, #a4a4a4, #777475);
+  background-position-x: .06125em;
+  transition: background-position-x .24s cubic-bezier(.65, 1.35, .5, 1);
+  box-shadow: inset 0 1em .25em rgb(0 0 0 / .4);
+}
+
+.toggleInput:checked + .toggleHandleWrapper .toggleHandleBar {
+  background-position-x: -.06125em;
+}
+
+.toggleBase {
+  position: relative;
+  border-radius: 3.125em;
+  width: 3em;
+  height: 1.125em;
+  background-color: #222222;
+  background-image: linear-gradient(to bottom, var(--color-blue-1), var(--color-blue-2));
+  box-shadow: 0 -.05em .05em #fff, 0 .05em .05em #d7d7d7;
+}
+
+.toggleBaseInside {
+  position: relative;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #1f1f1f, #0f0f0f);
+  box-shadow: inset 0 .0625em rgb(255 255 255 / .2), inset 0 -.03125em rgb(255 255 255 / 1), inset 0 -.0625em .25em rgb(0 0 0 / .1);
+}
+
+.toggleBaseInside::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #00cfb6, #00a5bf);
+  box-shadow: inherit;
+  opacity: 0;
+  transition: opacity .24s cubic-bezier(.65, 1.35, .5, 1);
+}
+
+.toggleInput:checked ~ .toggleBase .toggleBaseInside::after {
+  opacity: 1;
+}
+
+.content {
+  width: 30%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.pt, .en {
+  width: auto;
+  height: 48px;
+  aspect-ratio: 1/1;
+  margin: 16px;
+  background-size: 250%;
+  background-position: center;
+}
+
