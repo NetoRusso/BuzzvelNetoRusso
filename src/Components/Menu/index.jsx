@@ -10,11 +10,11 @@ const Menu = ({ menu1, menu2, menu3 }) => {
     <div>
       <div className={Style.menuDesktop}>
         <div className={Style.navBar}>
-          <a href="#" >
+          <a href="#home" >
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.navLinks}>
-            <a href="#" className={Style.navLink}>{menu1}</a>
+            <a href="#about" className={Style.navLink}>{menu1}</a>
             <a href="#" className={Style.navLink}>{menu2}</a>
             <a href="#" className={Style.navLink}>{menu3}</a>
           </div>
@@ -35,11 +35,11 @@ const Menu = ({ menu1, menu2, menu3 }) => {
             document.getElementById("bgModal").style.display = "none";
             document.getElementById("navTab").style.left = "-100%";
           }}>X</button>
-          <a href="#">
+          <a href="#home">
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.mobileNavLinks}>
-            <a href="#" className={Style.mobileNavLink}>{menu1}</a>
+            <a href="#about" className={Style.mobileNavLink}>{menu1}</a>
             <a href="#" className={Style.mobileNavLink}>{menu2}</a>
             <a href="#" className={Style.mobileNavLink}>{menu3}</a>
           </div>
