@@ -8,7 +8,7 @@ const Timeline = () => {
   const timelineSliderRef = useRef(null);
   const titleTimelineRef = useRef(null);
 
-  document.styleSheets[10].cssRules[3].style.width = `${trackWidth}%`;
+  // document.styleSheets[10].cssRules[3].style.width = `${trackWidth}%`;
   const trackWidthChange = (year) => {
     setTrackWidth((year - 1987) / (2025 - 1987) * 100);
   };
@@ -74,9 +74,8 @@ const Timeline = () => {
         tickMarks.forEach((option) => {
           i++;
           const year = option.value;
-          const position = ((year - 1987) / (2025 - 1987)) * 100; // Calcula a posição com base no min
-          positions.push(position * 0.9885 ); // Para telas 1920w o valor ideal é 0.99 mas para 360w é ??? 
-          console.log(1 - (document.defaultView.innerWidth/1920)/(100 * i) );
+          const position = ((year - 1987) / (2025 - 1987)) * 100; 
+          positions.push(position * 0.9885 ); 
         });
 
         setMarkerPositions(positions);
