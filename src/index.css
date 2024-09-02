@@ -14,6 +14,7 @@
   --font-title-3: clamp(0.875rem, 0.6731rem + 0.8974vw, 1.75rem);
   --font-text-1: clamp(0.75rem, 0.5649rem + 0.7792vw, 1.5rem);
   --font-text-2: clamp(0.75rem, 0.6266rem + 0.5195vw, 1.25rem);
+  --font-text-3: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
 }
 
 * {
