@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Style from './Timeline.module.css';
 import { useTranslation } from 'react-i18next';
+import site from "./assets/site.png";
+import le20 from "./assets/le20Img.png";
+import narrativa from "./assets/Narrativa.png";
 
 
 const Timeline = () => {
@@ -76,15 +79,15 @@ const Timeline = () => {
         <h3 className={Style.textContainerTitle}>{year}</h3>
         <ul className={Style.textContainerList}>
           {year === 1988 ?
-            <>
+            <div className={Style.textContainerListText}>
               <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                 <p className={Style.textContainerListItemText}>
                   {t("Timeline.1988_1")}
                 </p>
               </li>
-            </>
+            </div>
             : year === 2002 ?
-              <>
+              <div className={Style.textContainerListText}>
                 <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                   <p className={Style.textContainerListItemText}>
                     {t("Timeline.2002_1")}
@@ -95,9 +98,9 @@ const Timeline = () => {
                     CID 10: M21.0, M21.7, M24.6, M41.5 e M86.5 .
                   </p>
                 </li>
-              </>
+              </div>
               : year === 2006 ?
-                <>
+                <div className={Style.textContainerListText}>
                   <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                     <p className={Style.textContainerListItemText}>
                       {t("Timeline.2006_1")}
@@ -130,17 +133,17 @@ const Timeline = () => {
                       {t("Timeline.2006_1_1")}
                     </span>
                   </li>
-                </>
+                </div>
                 : year === 2008 ?
-                  <>
+                  <div className={Style.textContainerListText}>
                     <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                       <p className={Style.textContainerListItemText}>
                         {t("Timeline.2008_1")}
                       </p>
                     </li>
-                  </>
+                  </div>
                   : year === 2009 ?
-                    <>
+                    <div className={Style.textContainerListText}>
                       <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                         <p className={Style.textContainerListItemText}>
                           {t("Timeline.2009_1")}
@@ -151,9 +154,9 @@ const Timeline = () => {
                           {t("Timeline.2009_2")}
                         </p>
                       </li>
-                    </>
+                    </div>
                     : year === 2012 ?
-                      <>
+                      <div className={Style.textContainerListText}>
                         <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                           <p className={Style.textContainerListItemText}>
                             {t("Timeline.2012_1")}
@@ -162,25 +165,65 @@ const Timeline = () => {
                             {t("Timeline.2012_1_1")}
                           </span>
                         </li>
-                      </>
+                      </div>
                       : year === 2013 ?
-                        <>
+                        <div className={Style.textContainerListText}>
                           <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                             <p className={Style.textContainerListItemText}>
                               {t("Timeline.2013_1")}
                             </p>
                           </li>
-                        </>
+                        </div>
                         : year === 2014 ?
-                          <>
+                          <div className={Style.textContainerListText}>
                             <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
                               <p className={Style.textContainerListItemText}>
                                 {t("Timeline.2014_1")}
                               </p>
                             </li>
-                          </>
-                          :
-                          ""
+                          </div>
+                          : year === 2015 ?
+                            <div className={Style.textContainerListDisplay}>
+                              <div className={Style.textContainerListText}>
+                                <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                  <p className={Style.textContainerListItemText}>
+                                    {t("Timeline.2015_1")}
+                                  </p>
+                                  <p className={Style.textContainerListItemText}>
+                                    {t("Timeline.2015_2")}
+                                  </p>
+                                  <p className={Style.textContainerListItemText}>
+                                    {t("Timeline.2015_3")}
+                                  </p>
+                                </li>
+                                <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                  <p className={Style.textContainerListItemText}><a className={Style.textContainerListLink} href='https://le20rep.com' target='_blank' rel="noreferrer" title={t("Timeline.2015_link_title")}>  <img src={site} className={Style.websiteIcon} alt="Icone de site || website icon" /> {t("Timeline.2015_link")}</a></p>
+                                </li>
+                              </div>
+                              <img className={Style.textContainerListDisplayImg} src={le20} alt="Logo da Le20 Representações || Le20 Representações logo" />
+                            </div>
+                            : year === 2018 ?
+                            <div className={Style.textContainerListDisplay}>
+                            <div className={Style.textContainerListText}>
+                              <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                <p className={Style.textContainerListItemText}>
+                                  {t("Timeline.2018_1")}
+                                </p>
+                                <p className={Style.textContainerListItemText}>
+                                  {t("Timeline.2018_2")}
+                                </p>
+                                <p className={Style.textContainerListItemText}>
+                                  {t("Timeline.2018_3")}
+                                </p>
+                              </li>
+                              <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                <p className={Style.textContainerListItemText}><a className={Style.textContainerListLink} href='https://narrativadaimaginacao.org/' target='_blank' rel='noreferrer' title={t("Timeline.2018_link_title")}> <img src={site} className={Style.websiteIcon} alt="Icone de site || website icon" /> {t("Timeline.2018_link")}</a></p>
+                              </li>
+                            </div>
+                            <img className={Style.textContainerListDisplayImg} src={narrativa} alt="Fotos de eventos da Narrativa da imaginação || Photos of Narrative of Imagination events" />
+                          </div>
+                              :
+                              ""
           }
         </ul>
       </div>
