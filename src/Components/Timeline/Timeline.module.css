@@ -159,7 +159,7 @@
 
 .textContainerListItemText {
   width: 90%;
-  min-width: 288px;
+  /* min-width: 288px; */
   font-size: var(--font-text-1);
   color: var(--color-blue-1);
   font-weight: 600;
@@ -206,7 +206,7 @@
 
 .textContainerListDisplay {
   width: 90%;
-  max-width: 280px;
+
   height: auto;
   display: flex;
   align-items: center;
