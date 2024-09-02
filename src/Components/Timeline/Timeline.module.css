@@ -206,11 +206,13 @@
 
 .textContainerListDisplay {
   width: 90%;
+  max-width: 280px;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
+  align-self: center;
 }
 
 .textContainerListDisplayImg {
