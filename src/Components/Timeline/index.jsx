@@ -398,6 +398,37 @@ const Timeline = () => {
                                               </span>
                                             </li>
 
+                                            <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                              <p className={Style.textContainerListItemText}>
+                                                {t("Timeline.2024_7")}
+                                              </p>
+                                              <span className={Style.description}>
+                                                ( Alura, 10h )
+                                              </span>
+                                            </li>
+
+                                            <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                              <p className={Style.textContainerListItemText}>
+                                                {t("Timeline.2024_8")}
+                                              </p>
+                                              <span className={Style.description}>
+                                                ( Alura, 48h )
+                                              </span>
+                                            </li>
+
+                                            <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                              <p className={Style.textContainerListItemText}>
+                                                {t("Timeline.2024_9")}
+                                              </p>
+                                              <span className={Style.description}>
+                                                ( Alura, 40h )
+                                              </span>
+                                            </li>
+
+                                            <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
+                                              <p className={Style.textContainerListItemText}><a className={Style.textContainerListLink} href='https://cursos.alura.com.br/user/netorusso/fullCertificate/b31a310dac755775dce33a117d2ccfd6' target='_blank' rel='noreferrer' title={t("Timeline.2024_link_title")}> <img src={site} className={Style.websiteIcon} alt="Icone de site || website icon" /> {t("Timeline.2024_link")}</a></p>
+                                            </li>
+
                                           </div>
                                         </div>
                                         :
