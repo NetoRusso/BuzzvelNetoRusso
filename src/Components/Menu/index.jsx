@@ -3,9 +3,11 @@ import Style from "./Menu.module.css";
 import logo from './assets/logo_menu.png';
 import ToggleButton from "../ToggleButton";
 import ToggleButtonMobile from "../ToggleButtonMobile";
+import { useTranslation } from "react-i18next";
 
 
-const Menu = ({ menu1, menu2, menu3 }) => {
+const Menu = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div className={Style.menuDesktop}>
@@ -14,9 +16,9 @@ const Menu = ({ menu1, menu2, menu3 }) => {
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.navLinks}>
-            <a href="#about" className={Style.navLink}>{menu1}</a>
-            <a href="#" className={Style.navLink}>{menu2}</a>
-            <a href="#" className={Style.navLink}>{menu3}</a>
+            <a href="#about" className={Style.navLink}>{t("Menu.menu1")}</a>
+            <a href="#" className={Style.navLink}>{t("Menu.menu2")}</a>
+            <a href="#" className={Style.navLink}>{t("Menu.menu3")}</a>
           </div>
           <ToggleButton />
         </div>
@@ -39,9 +41,9 @@ const Menu = ({ menu1, menu2, menu3 }) => {
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.mobileNavLinks}>
-            <a href="#about" className={Style.mobileNavLink}>{menu1}</a>
-            <a href="#" className={Style.mobileNavLink}>{menu2}</a>
-            <a href="#" className={Style.mobileNavLink}>{menu3}</a>
+            <a href="#about" className={Style.mobileNavLink}>{t("Menu.menu1")}</a>
+            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu2")}</a>
+            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu3")}</a>
           </div>
           <div className={Style.lngMobile}>
             <ToggleButtonMobile />
