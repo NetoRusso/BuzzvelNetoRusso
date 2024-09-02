@@ -145,7 +145,7 @@
 }
 
 .textContainerList {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-top: 64px;
   display: flex;
@@ -155,21 +155,21 @@
   align-self: center;
   justify-self: center;
   gap: 16px;
+  padding: 16px;
 }
 
 .textContainerListItemText {
-  width: 90%;
-  /* min-width: 288px; */
+  width: 100%;
   font-size: var(--font-text-1);
   color: var(--color-blue-1);
   font-weight: 600;
   line-height: 1.2;
   margin: 8px 0;
+  padding-left: 8px;
 }
 
 .textContainerListDisplay {
   width: 100%;
-  min-width: 300px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -205,8 +205,7 @@
 }
 
 .textContainerListDisplay {
-  width: 90%;
-
+  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
@@ -216,7 +215,7 @@
 }
 
 .textContainerListDisplayImg {
-  width: 90%;
+  width: 100%;
   max-width: 280px;
   height: auto;
 }
