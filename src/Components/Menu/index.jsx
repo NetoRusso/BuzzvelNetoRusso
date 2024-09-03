@@ -8,17 +8,24 @@ import { useTranslation } from "react-i18next";
 
 const Menu = () => {
   const { t } = useTranslation();
+
+  const scrollTo = (e) => {
+    const section = document.getElementById(e);
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <div>
       <div className={Style.menuDesktop}>
         <div className={Style.navBar}>
-          <a href="#home" >
+          <a onClick={() => scrollTo("home")} >
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.navLinks}>
-            <a href="#about" className={Style.navLink}>{t("Menu.menu1")}</a>
-            <a href="#" className={Style.navLink}>{t("Menu.menu2")}</a>
+            <a onClick={() => scrollTo("about")} className={Style.navLink}>{t("Menu.menu1")}</a>
+            <a onClick={() => scrollTo("projects")} className={Style.navLink}>{t("Menu.menu2")}</a>
             <a href="#" className={Style.navLink}>{t("Menu.menu3")}</a>
+            <a href="#" className={Style.navLink}>{t("Menu.menu4")}</a>
           </div>
           <ToggleButton />
         </div>
@@ -37,13 +44,14 @@ const Menu = () => {
             document.getElementById("bgModal").style.display = "none";
             document.getElementById("navTab").style.left = "-100%";
           }}>X</button>
-          <a href="#home">
+          <a onClick={() => scrollTo("home")}>
             <img src={logo} alt="logo" className={Style.logo} />
           </a>
           <div className={Style.mobileNavLinks}>
-            <a href="#about" className={Style.mobileNavLink}>{t("Menu.menu1")}</a>
-            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu2")}</a>
+            <a onClick={() => scrollTo("about")} className={Style.mobileNavLink}>{t("Menu.menu1")}</a>
+            <a onClick={() => scrollTo("projects")} className={Style.mobileNavLink}>{t("Menu.menu2")}</a>
             <a href="#" className={Style.mobileNavLink}>{t("Menu.menu3")}</a>
+            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu4")}</a>
           </div>
           <div className={Style.lngMobile}>
             <ToggleButtonMobile />
