@@ -2,6 +2,7 @@ import './App.css';
 import Menu from './Components/Menu';
 import Header from './Components/Header';
 import About from './Components/About';
+import Projects from './Components/Projects';
 
 
 
@@ -13,9 +14,10 @@ function App() {
       <Header />
       <main>
         <About />
+        <Projects />
       </main>
 
-      <div className="espaco" />
+      {/* <div className="espaco" /> */}
     </div>
   );
 }
