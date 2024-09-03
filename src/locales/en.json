@@ -77,6 +77,12 @@
   "Card.link_github_title_donuts": "Github repository with the source code of Donuts Tech",
   "Card.paticipation_gvlar": "Design and support in the front end",
   "Card.link_site_title_gvlar": "GVLAR Imóveis || Here your dreams become a new dream!",
-  "Card.link_github_title_gvlar": "Github repository with the source code of GVLAR Imóveis"
+  "Card.link_github_title_gvlar": "Github repository with the source code of GVLAR Imóveis",
+  "Card.paticipation_bb8": "Design and development (Academic)",
+  "Card.link_site_title_bb8": "BB8 Geeks || Your Geek's store!",
+  "Card.link_github_title_bb8": "Github repository with the source code of BB8 Geeks",
+  "Card.paticipation_educode": "Idealization Design and Development (Academic)",
+  "Card.link_site_title_educode": "EduCode || The school of programming that is your face",
+  "Card.link_github_title_educode": "Github repository with the source code of EduCode"
 
 }
