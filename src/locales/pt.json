@@ -1,13 +1,18 @@
 {
     "Menu.menu1": "Sobre mim",
-    "Menu.menu2": "Buzzvel",
-    "Menu.menu3": "Contato",
+    "Menu.menu2": "Projetos",
+    "Menu.menu3": "Buzzvel",
+    "Menu.menu4": "Contato",
+
     "Greeting.text1": "Bem vindo...",
+
     "Banner.text2": "Meu nome é Neto Russo",
     "Banner.text3": "Paixão por tecnologia, impulsionando resultados. Combinando experiência em marketing e comunicação com habilidades em programação e design, para construir soluções inovadoras e eficientes.",
+
     "About.aboutText1": "Minha jornada profissional me proporcionou experiências valiosas em marketing, comunicação e gestão, a paixão pela área de tecnologia me impulsionou a migrar para o mundo da programação.",
     "About.aboutText2": "Estou em busca de uma oportunidade desafiadora para aplicar meus conhecimentos e contribuir para o crescimento da empresa .",
     "About.aboutText3": "Minhas habilidades e paixão por inovação podem agregar valor ao seu time.",
+    
     "Timeline.1988_1": "Nascido em 13 de outubro de 1988, em Uberaba, Minas Gerais, a paixão pela autonomia e o dom da negociação já me acompanhavam desde cedo. Cresci em meio às histórias de vendas e desafios do mundo empresarial, herdando dos meus pais, representantes comerciais, a energia e a sagacidade que me impulsionam até hoje.",
     "Timeline.2002_1": "No dia 31 de agosto de 2002, enfrentei um grande desafio: sofri um acidente grave que resultou em uma fratura exposta e, posteriormente, uma infecção hospitalar. Passei por mais de 15 cirurgias e tratamentos intensivos para minimizar os danos. A energia que antes dedicava ao esporte redirecionei para os estudos e o desenvolvimento pessoal, transformando a adversidade em uma força motriz para a superação. O caminho foi difícil, mas hoje posso dizer com orgulho que superei minha deficiência e me tornei mais forte do que jamais imaginei.",
     "Timeline.2006_1":"Informática básica",
@@ -59,6 +64,19 @@
     "Timeline.2024_8": "06/2024 Aprenda programar em Java com Orientação a Objetos.",
     "Timeline.2024_9": "07/2024 Java Web: Crie aplicações usando Spring Boot",
     "Timeline.2024_link_title": "Lista completa de cerificados na Alura",
-    "Timeline.2024_link": "Visite a lista completa de certificados na Alura"
+    "Timeline.2024_link": "Visite a lista completa de certificados na Alura",
+
+    "Projects.title": "Principais Projetos",
+
+    "Card.technologies_title": "Tecnologias",
+    "Card.participation_title": "Participação",
+
+    "Card.technologies_none": " ",
+    "Card.paticipation_donuts": "Idealização, Design e Desenvolvimento",
+    "Card.link_site_title_donuts": "Conheça o site da Donuts Tech || O Marketing que da agua na boca e a tecnologia que faz piruetas",
+    "Card.link_github_title_donuts": "Repositório do Github com o código fonte da Donuts Tech",
+    "Card.paticipation_gvlar": "Design e apoio no front end",
+    "Card.link_site_title_gvlar": "GVLAR Imóveis || Aqui os seus sonhos ganham um novo lar!",
+    "Card.link_github_title_gvlar": "Repositório do Github com o código fonte da GVLAR Imóveis"
 
 }
