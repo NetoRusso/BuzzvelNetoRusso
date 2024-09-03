@@ -4,6 +4,8 @@ import Card from "../Card";
 import { useTranslation } from "react-i18next";
 import donuts from './assets/Logo V.png';
 import gvlar from './assets/GVlar_branco.png';
+import bb8 from './assets/bb8_logo_branco.png';
+import eduCode from './assets/EduCode_Logo_branco.png';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -43,6 +45,35 @@ const Projects = () => {
           linkGithub="https://github.com/MilenaCLeme/website-gvlar"
           card_link_github_title={t("Card.link_github_title_gvlar")}
         />
+        <Card 
+          logo={bb8}
+          titulo="BB8 Geeks"
+          tecnologia_1="HTML5"
+          tecnologia_2="CSS3"
+          tecnologia_3="JavaScript"
+          tecnologia_4="Bootstrap"
+          tecnologia_5={t("Card.technologies_none")}
+          participacao={t("Card.paticipation_bb8")}
+          linkSite="https://bb-8-geek.vercel.app/"
+          card_link_site_title={t("Card.link_site_title_bb8")}
+          linkGithub="https://github.com/NetoRusso/BB-8-Geek"
+          card_link_github_title={t("Card.link_github_title_bb8")}
+        />
+        <Card 
+          logo={eduCode}
+          titulo="EduCode"
+          tecnologia_1="HTML5"
+          tecnologia_2="CSS3"
+          tecnologia_3="JavaScript"
+          tecnologia_4={t('Card.technologies_none')}
+          tecnologia_5={t('Card.technologies_none')}
+          participacao={t('Card.paticipation_educode')}
+          linkSite="https://educode-lac.vercel.app/"
+          card_link_site_title={t("Card.link_site_title_educode")}
+          linkGithub="https://github.com/NetoRusso/EduCode"
+          card_link_github_title={t("Card.link_github_title_educode")}
+        />
+        {/* <Card /> */}
       </div>
     </section>
   )
