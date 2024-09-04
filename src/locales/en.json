@@ -83,6 +83,13 @@
   "Card.link_github_title_bb8": "Github repository with the source code of BB8 Geeks",
   "Card.paticipation_educode": "Idealization Design and Development (Academic)",
   "Card.link_site_title_educode": "EduCode || The school of programming that is your face",
-  "Card.link_github_title_educode": "Github repository with the source code of EduCode"
+  "Card.link_github_title_educode": "Github repository with the source code of EduCode",
+  "Card.paticipation_javascript": "Idealization, Design and Development (Academic)",
+  "Card.link_site_title_javascript": "Javascript Final Project || Final module of Javascript bootcamp",
+  "Card.link_github_title_javascript": "Github repository with the source code of Javascript Final Project",
+  "Card.titulo_fotografias": "Photography",
+  "Card.paticipation_fotografias": "Idealization, Design and Development (Academic)",
+  "Card.link_site_title_fotografias": "Photography portfolio",
+  "Card.link_github_title_fotografias": "Github repository with the source code of Photography portfolio"
 
 }
