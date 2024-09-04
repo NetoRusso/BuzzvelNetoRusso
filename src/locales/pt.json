@@ -83,6 +83,14 @@
     "Card.link_github_title_bb8": "Repositório do Github com o código fonte da BB8 Geeks",
     "Card.paticipation_educode": "Idealização Design e Desenvolvimento (Acadêmico)",
     "Card.link_site_title_educode": "EduCode || A escola de programação que é a sua cara",
-    "Card.link_github_title_educode": "Repositório do Github com o código fonte da EduCode"
+    "Card.link_github_title_educode": "Repositório do Github com o código fonte da EduCode",
+    "Card.paticipation_javascript": "Idealização, Design e Desenvolvimento (Acadêmico)",
+    "Card.link_site_title_javascript": "Projeto Final de Javascript || Final do módulo de Javascript do bootcamp",
+    "Card.link_github_title_javascript": "Repositório do Github com o código fonte do projeto final de Javascript",
+    "Card.titulo_fotografias": "Fotografias",
+    "Card.paticipation_fotografias": "Idealização, Design e Desenvolvimento (Acadêmico)",
+    "Card.link_site_title_fotografias": "Portifólio de Fotografias",
+    "Card.link_github_title_fotografias": "Repositório do Github com o código fonte do portfolio de fotografias"
+
 
 }
