@@ -90,7 +90,19 @@
     "Card.titulo_fotografias": "Fotografias",
     "Card.paticipation_fotografias": "Idealização, Design e Desenvolvimento (Acadêmico)",
     "Card.link_site_title_fotografias": "Portifólio de Fotografias",
-    "Card.link_github_title_fotografias": "Repositório do Github com o código fonte do portfolio de fotografias"
+    "Card.link_github_title_fotografias": "Repositório do Github com o código fonte do portfolio de fotografias",
 
+    "Contact.title": "Entre em Contato",
 
+    "Form.name": "Nome*",
+    "Form.name_placeholder": "Nome Completo",
+    "Form.phone": "Telefone",
+    "Form.phone_placeholder": "Telefone",
+    "Form.email": "Email*",
+    "Form.email_placeholder": "Seu melhor e-mail",
+    "Form.message": "Mensagem*",
+    "Form.message_placeholder": "Conte me tudo, não me esconda nada!",
+    "Form.submit": "Enviar",
+    "Form.message_ok": "Mensagem enviada com sucesso!",
+    "Form.message_error": "Erro ao enviar a mensagem: "
 }
