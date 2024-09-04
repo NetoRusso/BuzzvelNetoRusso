@@ -1,0 +1,89 @@
+.formContainer {
+  width: 50%;
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+}
+.form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  padding: 32px 16px;
+  align-self: center;
+}
+
+.formLabel {
+  font-size: 24px;
+  color: var(--color-blue-1);
+  font-weight: 600;
+}
+
+.formInput {
+  width: 300px;
+  height: 48px;
+  border-radius: 12px;
+  padding: 5px 16px;
+  outline: none;
+  border: 5px solid var(--color-blue-2);
+  box-shadow: -10px 10px 0 var(--color-blue-2);
+  font-size: 16px;
+  color: var(--color-blue-1);
+}
+
+.formInput:focus {
+  border: 5px solid var(--color-yellow);
+  box-shadow: -5px 5px 0 var(--color-yellow);
+}
+
+
+.formTextarea {
+  width: 300px;
+  height: 128px;
+  border-radius: 12px;
+  padding: 5px 16px;
+  outline: none;
+  border: 5px solid var(--color-blue-2);
+  box-shadow: -10px 10px 0 var(--color-blue-2);
+  font-size: 16px;
+  color: var(--color-blue-1);
+}
+
+.formTextarea:focus {
+  border: 5px solid var(--color-yellow);
+  box-shadow: -5px 5px 0 var(--color-yellow);
+}
+
+.formButton {
+  width: 128px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: var(--color-blue-1);
+  color: var(--color-blue-4);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 5px solid var(--color-blue-2);
+  box-shadow: -5px 5px 0 var(--color-blue-2);
+}
+
+.formButton:hover {
+  scale: 0.9;
+  background-color: var(--color-yellow);
+  color: var(--color-blue-1);
+  border: 5px solid var(--color-blue-1);
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
+}
+
+.formMessage {
+  font-size: 16px;
+  color: var(--color-red);
+  font-weight: 600;
+}
