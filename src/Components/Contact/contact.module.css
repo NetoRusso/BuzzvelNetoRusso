@@ -1,0 +1,38 @@
+.contact {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.contactHeader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.contactTitle {
+  font-size: var(--font-title-1);
+  color: var(--color-blue-1);
+  font-weight: 800;
+  padding: 8px 16px;
+}
+
+.contactImage {
+  width: 104px;
+  height: auto;
+}
+
+.contactContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
