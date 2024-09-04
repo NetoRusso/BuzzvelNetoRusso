@@ -24,8 +24,8 @@ const Menu = () => {
           <div className={Style.navLinks}>
             <a onClick={() => scrollTo("about")} className={Style.navLink}>{t("Menu.menu1")}</a>
             <a onClick={() => scrollTo("projects")} className={Style.navLink}>{t("Menu.menu2")}</a>
-            <a href="#" className={Style.navLink}>{t("Menu.menu3")}</a>
-            <a href="#" className={Style.navLink}>{t("Menu.menu4")}</a>
+            {/* <a href="#" className={Style.navLink}>{t("Menu.menu3")}</a> */}
+            <a onClick={() => scrollTo("contact")} className={Style.navLink}>{t("Menu.menu4")}</a>
           </div>
           <ToggleButton />
         </div>
@@ -50,8 +50,8 @@ const Menu = () => {
           <div className={Style.mobileNavLinks}>
             <a onClick={() => scrollTo("about")} className={Style.mobileNavLink}>{t("Menu.menu1")}</a>
             <a onClick={() => scrollTo("projects")} className={Style.mobileNavLink}>{t("Menu.menu2")}</a>
-            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu3")}</a>
-            <a href="#" className={Style.mobileNavLink}>{t("Menu.menu4")}</a>
+            {/* <a href="#" className={Style.mobileNavLink}>{t("Menu.menu3")}</a> */}
+            <a onClick={() => scrollTo("contact")} className={Style.mobileNavLink}>{t("Menu.menu4")}</a>
           </div>
           <div className={Style.lngMobile}>
             <ToggleButtonMobile />
