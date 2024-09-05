@@ -1,0 +1,14 @@
+.footer { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.footerText { 
+  font-size: var(--font-text-3);
+  color: var(--color-blue-4);
+  font-weight: 600;
+}
