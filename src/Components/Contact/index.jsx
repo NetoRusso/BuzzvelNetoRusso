@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className={Style.contactContainer}>
         <Forms />
-        {/* <PainelContatos /> */}
+        <PainelContatos />
       </div>
     </section>
   )
