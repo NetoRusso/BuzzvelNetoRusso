@@ -104,7 +104,24 @@
 "Form.message_placeholder": "Tell me everything, don't hide anything!",
 "Form.submit": "Submit",
 "Form.message_ok": "Message sent successfully!",
-"Form.message_error": "Error sending message: "
+"Form.message_error": "Error sending message: ",
+
+"PainelContatos.title": "General Information:",
+"PainelContatos.info_1": "PCD. CID: S88",
+"PainelContatos.subtitle": "Qualifications :",
+"PainelContatos.info_2": "Project Leadership;",
+"PainelContatos.info_3": "Creative Project Management;",
+"PainelContatos.info_4": "Experience in UX/UI;",
+"PainelContatos.info_5": "Experience in React.js;",
+"PainelContatos.info_6": "Adaptability;",
+"PainelContatos.info_7": "Communication Efficient and not violent;",
+"PainelContatos.rede_email": "Send email to netoacrn1@gmail.com",
+"PainelContatos.rede_whatsapp": "Call me on Whatsapp",
+"PainelContatos.rede_linkedin": "Visit my Linkedin",
+"PainelContatos.rede_github": "Visit my Github",
+"PainelContatos.rede_instagram": "Visit my Instagram",
+
+"Footer.text1": "All rights reserved || Neto Russo"
 
 
 }
