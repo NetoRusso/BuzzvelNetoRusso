@@ -112,6 +112,20 @@
   margin-top: 32px;
   gap: 32px;
   cursor: grab;
+  animation: enter .3s ease-in-out;
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translate3d(200vw, 0px, 0px);
+
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
 }
 
 .glider {
