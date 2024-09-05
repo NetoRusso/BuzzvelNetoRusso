@@ -17,12 +17,37 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  animation: enterText .3s ease-in-out;
+}
+
+@keyframes enterText {
+  0% { 
+    opacity: 0;
+    transform: translate3d(200vw, 0px, 0px);
+  } 
+  100% { 
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
 }
 
 .photo {
   width: 20%;
   min-width: 300px;
   height: auto;
+  animation: enterPhoto .3s ease-in-out;
+}
+
+@keyframes enterPhoto {
+  0% { 
+    opacity: 0;
+    transform: translate3d(-100vw, 0px, 0px);
+  } 
+  100% { 
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
 }
 
 .aboutTexts {
