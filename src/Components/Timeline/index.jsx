@@ -256,7 +256,7 @@ const Timeline = () => {
                                             {t("Timeline.2022_1")}
                                           </p>
                                           <span className={Style.description}>
-                                            ( CID: M86.6 )
+                                            ( CID 10: S88 )
                                           </span>
                                         </li>
                                         <li className={`${Style.textContainerListItem} ${active ? Style.slideIn : ""}`}>
