@@ -3,6 +3,7 @@ import Style from "./contact.module.css";
 import { useTranslation } from "react-i18next";
 import contact from './assets/contact.png';
 import Forms from "../Forms";
+import PainelContatos from "../PainelContatos";
 
 
 const Contact = () => {
@@ -16,6 +17,7 @@ const Contact = () => {
       </div>
       <div className={Style.contactContainer}>
         <Forms />
+        {/* <PainelContatos /> */}
       </div>
     </section>
   )
