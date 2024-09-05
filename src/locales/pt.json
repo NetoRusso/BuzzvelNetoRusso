@@ -104,5 +104,22 @@
     "Form.message_placeholder": "Conte me tudo, não me esconda nada!",
     "Form.submit": "Enviar",
     "Form.message_ok": "Mensagem enviada com sucesso!",
-    "Form.message_error": "Erro ao enviar a mensagem: "
+    "Form.message_error": "Erro ao enviar a mensagem: ",
+
+    "PainelContatos.title": "Informações Gerais:",
+    "PainelContatos.info_1": "PCD. CID: S88",
+    "PainelContatos.subtitle": "Qualificações :",
+    "PainelContatos.info_2": "Liderança de Projetos;",
+    "PainelContatos.info_3": "Gestão de projetos criativos;",
+    "PainelContatos.info_4": "Experiência em UX/UI;",
+    "PainelContatos.info_5": "Experiência em React.js;",
+    "PainelContatos.info_6": "Adaptabilidade;",
+    "PainelContatos.info_7": "Comunicação Eficiente e não violenta;",
+    "PainelContatos.rede_email": "Enviar email para netoacrn1@gmail.com",
+    "PainelContatos.rede_whatsapp": "Eviar mensagem no meu Whatsapp ",
+    "PainelContatos.rede_linkedin": "Visitar o meu Linkedin ",
+    "PainelContatos.rede_github": "Visitar o meu Github ",
+    "PainelContatos.rede_instagram": "Visitar o meu Instagram ",
+
+    "Footer.text1": "Todos os direitos reservados || Neto Russo "
 }
