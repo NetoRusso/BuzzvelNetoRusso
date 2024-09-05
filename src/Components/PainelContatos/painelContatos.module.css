@@ -1,6 +1,150 @@
 .painelContatosContainer {
   margin: auto;
-  min-width: 320px;
+  width: 320px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  animation: enter .3s ease-in-out;
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translate3d(200vw, 0px, 0px);
+
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+  
+
+
+.informTitle {
+  font-size: 24px;
+  color: var(--color-blue-1);
+  font-weight: 800;
+  margin: 8px 0;
+}
+
+.informSubTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-blue-1);
+  margin: 8px 0;
+}
+
+.informContent {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.informItem {
+  font-size: 16px;
+  color: var(--color-blue-1);
+  margin: 8px 0;
+  align-self: flex-start;
+}
+
+.PainelContatosRedes {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 24px 0;
+  gap: 8px;
+}
+
+.redeIcon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-blue-4);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--color-blue-1);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.emailLogo {
+  background-image: url("./assets/email_icon.png");
+}
+
+
+.whatsappLogo { 
+  background-image: url("./assets/wpp_icon.png");
+}
+
+
+
+.linkedinLogo { 
+  background-image: url("./assets/linkedin_icon.png");
+}
+
+
+
+.githubLogo { 
+  background-image: url("./assets/github_icon.png");
+}
+
+
+
+.instagramLogo { 
+  background-image: url(./assets/instagram_icon.png);
+}
+
+
+.redesText { 
+  display: none;
+  font-size: 16px;
+  color: var(--color-blue-1);
+  text-align: center;
+  margin: 16px 0;
+}
+
+.emailText { 
+  /* display: block;  */
+  text-decoration: underline;
+  font-style: italic;
+}
+
+
+.emailLogo:hover {
+  background-image: url("./assets/email_hover.png");
+  background-color: var(--color-red);
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsappLogo:hover { 
+  background-image: url("./assets/wpp_hover.png");
+  background-color: #25D366;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedinLogo:hover { 
+  background-image: url(./assets/linkedin_hover.png);
+  background-color: #0e76a8;
+  transition: all 0.3s ease-in-out;
+}
+
+.githubLogo:hover { 
+  background-image: url(./assets/github_hover.png);
+  background-color:  #5c6bc0;
+  transition: all 0.3s ease-in-out;
+}
+
+.instagramLogo:hover { 
+  background-image: url(./assets/instagram_hover.png);
+  background-color: #ff356a;
+  transition: all 0.3s ease-in-out;
 }
