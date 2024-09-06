@@ -1,0 +1,111 @@
+.whyBuzzvelContainer { 
+  width: 100%;
+  height: auto;
+  margin: 32px 0;
+}
+
+.whyBuzzvelDisplay { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+
+
+.whyBuzzvelImage {
+  width: clamp(20rem, 17.1154rem + 12.8205vw, 32.5rem);
+  aspect-ratio: 1/1;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  box-shadow: 0px 0px 10px rgba(253, 105, 105, 0.5);
+}
+
+.img1 { 
+  background-image: url('./assets/valores_1.jpeg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1200px;
+  animation: moveImage 25s ease-in-out infinite;
+  background-position-x: 0%;
+  background-position-y: 30%;
+}
+
+.img2 { 
+  background-image: url('./assets/tecnologia.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1200px;
+  animation: moveImage 25s ease-in-out infinite;
+  background-position-x: 40%;
+  background-position-y: 30%;
+}
+
+.img3 { 
+  background-image: url('./assets/codigo.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1000px;
+  animation: moveImage 25s ease-in-out infinite;
+  background-position-x: 40%;
+  background-position-y: 30%;
+}
+
+.img4 { 
+  background-image: url('./assets/portugal.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1000px;
+  animation: moveImage 25s ease-in-out infinite;
+  background-position-x: 40%;
+  background-position-y: 50%;
+}
+
+.img5 { 
+  background-image: url('./assets/multinacional.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1000px;
+  animation: moveImage 25s ease-in-out infinite;
+  background-position-x: 40%;
+  background-position-y: 50%;
+}
+
+@keyframes moveImage {
+  0% {
+    background-position-x: auto;
+    background-position-y: auto;
+  }
+  100% {
+    background-position-x: 100%;
+    background-position-y: 0%;
+  }
+}
+
+.whyBuzzvelTextBox { 
+  width: 50%;
+  min-width: 320px;
+  height: clamp(20rem, 17.1154rem + 12.8205vw, 32.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.whyBuzzvelTitle {
+  font-family: var(--font-buzzvel);
+  font-size: var(--font-title-2);
+  color: var(--color-blue-4);
+  font-weight: 600;
+}
+
+.whyBuzzvelText { 
+  font-family: var(--font-buzzvel);
+  font-size: var(--font-text-1);
+  color: var(--color-blue-4);
+  font-weight: 400;
+  line-height: 1.3;
+}
