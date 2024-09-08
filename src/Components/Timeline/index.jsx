@@ -64,18 +64,17 @@ const Timeline = () => {
 
   return (
     <div className={Style.componentTimeline}>
-      <div className={Style.timelinePainel} >
-        <div className={Style.timelineBox}>
-          <div className={Style.timelineLine} />
-          <div className={Style.timelineLineAfter} style={{ width: position(year) }} />
+        <div className={Style.timelinePainel} >
+          <div className={Style.timelineBox}>
+            <div className={Style.timelineLine} />
+            <div className={Style.timelineLineAfter} style={{ width: position(year) }} />
+          </div>
+          <div className={Style.timelineHeader}>
+            <button className={Style.btnPrev} onClick={prevClick} />
+            <h2 className={Style.titleTimeline} ref={titleTimelineRef}>{year}</h2>
+            <button className={Style.btnNext} onClick={nextClick} />
+          </div>
         </div>
-        <div className={Style.timelineHeader}>
-          <button className={Style.btnPrev} onClick={prevClick} />
-          <h2 className={Style.titleTimeline} ref={titleTimelineRef}>{year}</h2>
-          <button className={Style.btnNext} onClick={nextClick} />
-        </div>
-      </div>
-
       <div className={Style.textContainer}>
         <h3 className={Style.textContainerTitle}>{year}</h3>
         <ul className={Style.textContainerList}>
@@ -436,7 +435,7 @@ const Timeline = () => {
           }
         </ul>
       </div>
-    </div>
+    </div >
   )
 };
 
