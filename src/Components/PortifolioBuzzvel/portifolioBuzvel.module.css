@@ -1,0 +1,9 @@
+.portifolioBuzzvelContainer { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 0.6154rem + 6.1538vw, 8rem) 0;
+}
+
