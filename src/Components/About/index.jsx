@@ -3,21 +3,42 @@ import Style from './About.module.css';
 import photo from './assets/FotoNeto01.png';
 import Timeline from '../Timeline';
 import { useTranslation } from 'react-i18next';
-const About = ( ) => {
+import ScrollAnimation from 'react-animate-on-scroll';
+const About = () => {
   const { t } = useTranslation();
   return (
     <section className={Style.about} id='about' aria-label='Sobre mim || About me'>
       <div className={Style.aboutResume}>
-        <img src={photo} alt="Foto de Neto Russo || Picure of Neto Russo" className={Style.photo} />
+        <ScrollAnimation
+          animateIn='fadeInLeft fadeIn'
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img src={photo} alt="Foto de Neto Russo || Picure of Neto Russo" className={Style.photo} />
+        </ScrollAnimation>
+
         <div className={Style.aboutTexts}>
-          <p className={Style.aboutText}>{t("About.aboutText1")}</p>
+          <ScrollAnimation
+            animateIn='fadeInRight fadeIn'
+          >
+            <p className={Style.aboutText}>{t("About.aboutText1")}</p>
             <p className={Style.aboutText}>{t("About.aboutText2")}</p>
             <p className={Style.aboutText}>{t("About.aboutText3")}</p>
+          </ScrollAnimation>
         </div>
       </div>
-      <div className={Style.detail} />
-      <Timeline />
-      <div className={Style.detail2} />
+      <ScrollAnimation
+        animateIn='fadeInUp fadeIn'
+        animateOnce={true}
+      >
+
+        <div className={Style.detail} />
+        <Timeline />
+        <div className={Style.detail2} />
+      </ScrollAnimation>
     </section>
   )
 }
