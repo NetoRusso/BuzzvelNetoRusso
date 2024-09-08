@@ -1,30 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Style from './whyBuzzvel.module.css';
 import { useTranslation } from "react-i18next";
 import img1 from './assets/portugal.png';
 
 
-const WhyBuzzvel = () => {
+const WhyBuzzvel = ({ count}) => {
 
   const { t } = useTranslation();
-
-  const [count, setCount] = useState(1);
-
-  useEffect(() => {
-    setTimeout(() => {
-      if (count === 1) {
-        setCount(2);
-      } else if (count === 2) {
-        setCount(3);
-      } else if (count === 3) {
-        setCount(4);
-      } else if (count === 4) {
-        setCount(5);
-      } else if (count === 5) {
-        setCount(1);
-      }
-    }, 25000);
-  }, [count])
 
   return (
     <div className={Style.whyBuzzvelContainer}>
