@@ -1,0 +1,189 @@
+.card {
+  width: clamp(18.75rem, 9.2308rem + 42.3077vw, 60rem);
+  height: clamp(12.5rem, 6.1538rem + 28.2051vw, 40rem);
+  perspective: 1000px;
+  border-radius: 10px;
+  margin: 16px;
+  z-index: 3;
+}
+
+.card:hover { 
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
+}
+
+.cardInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cardFront {
+  display: flex;
+  align-items: center;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  justify-content: center;
+  transform: rotateY(0deg);
+  /* position: relative; */
+}
+
+.cardBack {
+  display: flex;
+  align-items: center;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+.cardImgFront { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cardFrontDetail { 
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, 
+    rgba(60, 0, 0, 0.0) 0%, 
+    rgba(60, 0, 0, 0.01) 60%, 
+    rgba(60, 0, 0, 1) 100%);
+  left: -1%;
+  top: -1%;
+  border-radius: 10px;
+}
+
+.cardImgBack { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  filter: blur(5px);
+  mix-blend-mode: color-dodge;
+}
+
+.cardBackDetail { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  filter: blur(5px);
+
+}
+
+.name { 
+  width: 100%;
+  font-size: 24px;
+  font-family: var(--font-buzzvel);
+  font-weight: 800;
+  color: var(--color-blue-4);
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  z-index: 2;
+}
+
+.buzzLink { 
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.buzzLink img {
+  width: clamp(5rem, 3.8462rem + 5.1282vw, 10rem);
+  height: auto;
+}
+
+.buzzLink img:hover {
+  transform: scale(1.2);
+  transition: 200ms ease-in-out;
+}
+
+.text { 
+  width: 90%;
+  height: auto;
+  font-size: clamp(0.875rem, 0.6154rem + 1.1538vw, 2rem);
+  font-family: var(--font-buzzvel);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-blue-4);
+  position: absolute;
+  top: 20%;
+  z-index: 2;
+
+}
+
+.linkBox { 
+  width: 100%;
+  height: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: -8px;
+  left: 16px;
+  gap: 24px;
+  z-index: 2;
+}
+
+.portLink { 
+  width: clamp(2.25rem, 1.8462rem + 1.7949vw, 4rem);
+  height: clamp(2.25rem, 1.8462rem + 1.7949vw, 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-blue-4);
+  border-radius: 8px;
+}
+
+.portLink img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.linkText { 
+  width: 60%;
+  height: auto;
+  font-size: clamp(0.875rem, 0.6154rem + 1.1538vw, 2rem);
+  font-family: var(--font-buzzvel);
+  font-weight: 500;
+  color: var(--color-blue-4);
+}
+
+.portLink:hover { 
+  scale: 1.2;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+
+}
