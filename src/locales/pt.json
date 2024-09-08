@@ -12,15 +12,15 @@
     "About.aboutText1": "Minha jornada profissional me proporcionou experiências valiosas em marketing, comunicação e gestão, a paixão pela área de tecnologia me impulsionou a migrar para o mundo da programação.",
     "About.aboutText2": "Estou em busca de uma oportunidade desafiadora para aplicar meus conhecimentos e contribuir para o crescimento da empresa .",
     "About.aboutText3": "Minhas habilidades e paixão por inovação podem agregar valor ao seu time.",
-    
+
     "Timeline.1988_1": "Nascido em 13 de outubro de 1988, em Uberaba, Minas Gerais, a paixão pela autonomia e o dom da negociação já me acompanhavam desde cedo. Cresci em meio às histórias de vendas e desafios do mundo empresarial, herdando dos meus pais, representantes comerciais, a energia e a sagacidade que me impulsionam até hoje.",
     "Timeline.2002_1": "No dia 31 de agosto de 2002, enfrentei um grande desafio: sofri um acidente grave que resultou em uma fratura exposta e, posteriormente, uma infecção hospitalar. Passei por mais de 15 cirurgias e tratamentos intensivos para minimizar os danos. A energia que antes dedicava ao esporte redirecionei para os estudos e o desenvolvimento pessoal, transformando a adversidade em uma força motriz para a superação. O caminho foi difícil, mas hoje posso dizer com orgulho que superei minha deficiência e me tornei mais forte do que jamais imaginei.",
-    "Timeline.2006_1":"Informática básica",
+    "Timeline.2006_1": "Informática básica",
     "Timeline.2006_1_1": "( Faculdade Politécnica, 40h)",
-    "Timeline.2006_2":"Pacote Microssoft Office",
-    "Timeline.2006_3":"Digitação",
-    "Timeline.2006_4":"Marketing pessoal",
-    "Timeline.2008_1":"Agosto assumi a posição de Assistente Administrativo e Vendedor Externo na Russo Representações, com foco em vender e negociar material escolar e brinquedos. Desenvolvi habilidades em prospecção de clientes, negociação e manutenção de relacionamentos comerciais, contribuindo significativamente para o crescimento da empresa.",
+    "Timeline.2006_2": "Pacote Microssoft Office",
+    "Timeline.2006_3": "Digitação",
+    "Timeline.2006_4": "Marketing pessoal",
+    "Timeline.2008_1": "Agosto assumi a posição de Assistente Administrativo e Vendedor Externo na Russo Representações, com foco em vender e negociar material escolar e brinquedos. Desenvolvi habilidades em prospecção de clientes, negociação e manutenção de relacionamentos comerciais, contribuindo significativamente para o crescimento da empresa.",
     "Timeline.2009_1": "Abril de 2009 sai da Russo Representações por escolha profissional.",
     "Timeline.2009_2": "Em Maio deste mesmo ano assumi a posição de Promotor de serviços na Carlos Saraiva (Ricardo Eletro), um dos maiores varejistas do pais, nesta empresa atuei como sub gerente e supervisor de vendas, responsável pela promoção de produtos e serviços, além de gerenciar a relação com clientes.",
     "Timeline.2012_1": "Iniciei os meus estudos em Publicidade e Marketing, com o foco em comunicação efetiva e gestão em projetos criativos.",
@@ -123,30 +123,39 @@
 
     "Buzzvel.whyBuzzvel": "Por que o Buzzvel?",
 
-"WhyBuzzvel.title_1": "Qualidade, Inovação e Respeito pela Arte",
+    "WhyBuzzvel.title_1": "Qualidade, Inovação e Respeito pela Arte",
     "WhyBuzzvel.text_1_1": "Na Buzzvel, a busca pela excelência transcende a entrega de soluções tecnológicas inovadoras. A paixão pela qualidade permeia cada detalhe, do design impecável ao respeito e valorização do trabalho do time.",
     "WhyBuzzvel.text_1_2": "Essa dedicação à arte e ao cliente ressoa profundamente comigo. A Buzzvel parece falar a mesma língua que eu, valorizando a criatividade, o profissionalismo e a busca por resultados impactantes.",
     "WhyBuzzvel.text_1_3": "Essa identificação imediata me mostra que encontrei um lugar para crescer, contribuir e fazer parte de algo grandioso.",
 
-"WhyBuzzvel.title_2": "Criação de Soluções Inovadoras com Propósito",
+    "WhyBuzzvel.title_2": "Criação de Soluções Inovadoras com Propósito",
     "WhyBuzzvel.text_2_1": "Na Buzzvel, a paixão pela tecnologia se traduz em soluções personalizadas que impactam o mundo. A equipe se dedica a criar softwares únicos, para web ou mobile, otimizando processos e impulsionando o sucesso dos clientes.",
     "WhyBuzzvel.text_2_2": "É inspirador ver como cada detalhe, cada linha de código, é moldado com o objetivo de construir algo inovador e útil. Trabalhar na Buzzvel é fazer parte de um time que não se contenta com o básico, mas busca constantemente evoluir e deixar sua marca no mundo.",
     "WhyBuzzvel.text_2_3": "Essa busca por excelência e propósito me atrai e me motiva a contribuir com meu talento para criar soluções que transformam vidas.",
 
-"WhyBuzzvel.title_3": "Um Investimento na Minha Carreira de Desenvolvedor",
+    "WhyBuzzvel.title_3": "Um Investimento na Minha Carreira de Desenvolvedor",
     "WhyBuzzvel.text_3_1": "Na Buzzvel, a paixão pela tecnologia se transforma em soluções personalizadas que realmente impactam o mundo. Cada projeto é uma oportunidade de criar softwares únicos, sejam para web ou mobile, que otimizam processos e impulsionam o sucesso dos clientes.",
     "WhyBuzzvel.text_3_2": "Trabalhar na Buzzvel é fazer parte de um time que busca constantemente evoluir e deixar sua marca no mundo. A empresa investe em designs intuitivos e tecnologias de ponta, construindo softwares robustos, escaláveis e seguros.",
     "WhyBuzzvel.text_3_3": "É um investimento na minha carreira que me permite crescer profissionalmente e fazer parte de um futuro brilhante.",
 
-"WhyBuzzvel.title_4": "Construindo o Futuro da Tecnologia em Portugal",
+    "WhyBuzzvel.title_4": "Construindo o Futuro da Tecnologia em Portugal",
     "WhyBuzzvel.text_4_1": "Com mais de uma década de experiência, a Buzzvel transforma ideias em soluções tecnológicas personalizadas que impactam o mundo. Criamos softwares únicos, para web e mobile, otimizando processos e impulsionando o sucesso dos clientes.",
     "WhyBuzzvel.text_4_2": "Trabalhar na Buzzvel é fazer parte de uma equipe inovadora, que busca constantemente evoluir e deixar sua marca no mundo. Investimos em designs intuitivos e tecnologias de ponta, desenvolvendo softwares robustos, escaláveis e seguros, com um histórico de sucesso comprovado.",
     "WhyBuzzvel.text_4_3": "Investir na minha carreira na Buzzvel me permite crescer profissionalmente, fazer parte de um futuro brilhante e realizar meu sonho de trabalhar na Europa. Aqui, estou ao lado de uma equipe que compreende as demandas do mercado e possui a expertise para construir soluções de ponta.",
 
-"WhyBuzzvel.title_5": "Da tela para o Mundo em um clique",
+    "WhyBuzzvel.title_5": "Da tela para o Mundo em um clique",
     "WhyBuzzvel.text_5_1": "Com mais de uma década de experiência, a Buzzvel se destaca por criar soluções digitais inovadoras que transformam realidades. Desenvolvemos softwares personalizados, para web e mobile, otimizando processos e impulsionando o sucesso de clientes em diversos setores.",
     "WhyBuzzvel.text_5_2": "Trabalhar na Buzzvel é fazer parte de um time global que busca constantemente evoluir. Investimos em designs intuitivos e tecnologias de ponta, desenvolvendo softwares robustos, escaláveis e seguros, com um histórico de sucesso comprovado.",
     "WhyBuzzvel.text_5_3": "Construir uma carreira em Portugal, um país cheio de charme e oportunidades, e integrar uma equipe multinacional, expandindo meus horizontes profissionais em um ambiente dinâmico e estimulante, é um investimento que me permite crescer e contribuir para a construção de um mundo melhor através da tecnologia.",
+
+    "Buzzvel.portfolio": "Principais projetos da Buzzvel",
+
+    "CardBuzz.linkText": "Confira na integra",
+
+    "CardBuzz.texto_1": "A Coma ou Leve melhorou a eficiência dos pedidos e economizou tempo com a nova plataforma CRM.",
+    "CardBuzz.texto_2": "VIPLANT melhorou sua loja online, aumentando vendas em 75% e lançando o Cartão VIPLANT com 450 membros.",
+    "CardBuzz.texto_3": "Desenvolvido site WordPress moderno para Traquinices com blog, design responsivo e segurança aprimorada.",
+    "CardBuzz.texto_4": "Vigias da Arriba criou landing page trilingue, atraindo mercado internacional e batendo recordes de vendas.",
 
     "Footer.text1": "Todos os direitos reservados || Neto Russo "
 }
