@@ -26,6 +26,10 @@
   min-height: 50vh;
   background-color: var(--color-black-buzzvel);
   padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .buzzvelHeader { 
@@ -42,12 +46,44 @@
   align-items: center;
   justify-content: center;
   margin: 16px 0;
+  position: relative;
 }
 
-.whyBuzzvelTitle {
+.buzzvelTitle {
   font-family: var(--font-buzzvel);
   font-size: var(--font-title-1);
   color: var(--color-blue-4);
   margin: 32px 0;
   font-weight: 800;
+}
+
+.buzzvelPortifolio {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.player { 
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.player:hover { 
+  transform: scale(0.9);
+  transition: 200ms ease-in-out;
+}
+
+.whyBuzzvelHeader { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
