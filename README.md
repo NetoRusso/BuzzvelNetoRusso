@@ -160,3 +160,8 @@ ________________________________________________________________________________
 - <h4>About</h4>
 	- <p>Section about me with a text explaining my searches, and a professional photo, below a timeline component telling my entire journey to date.</p>
 ![About](https://github.com/user-attachments/assets/eceac032-2716-4f44-8371-2f5f9e9bf23d)
+
+- <h4>Projects</h4>
+
+	- <p> Exhibition section of my main projects, contains a slide with cards mentioning the main languages ​​used and with a link to the github and posted website.</p>
+![Projetos](https://github.com/user-attachments/assets/fbbdb5f8-f1b6-4970-97f2-0bf73b061bca)
