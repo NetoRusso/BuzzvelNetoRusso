@@ -62,7 +62,7 @@
   justify-content: center;
   align-content: flex-start;
   margin: 24px 0;
-  gap: 8px;
+  gap: 4px;
 }
 
 .redeIcon {
@@ -100,7 +100,11 @@
 
 
 .instagramLogo { 
-  background-image: url(./assets/instagram_icon.png);
+  background-image: url("./assets/instagram_icon.png");
+}
+
+.downloadLogo { 
+  background-image: url("./assets/downloadIcon.png");
 }
 
 
@@ -132,19 +136,25 @@
 }
 
 .linkedinLogo:hover { 
-  background-image: url(./assets/linkedin_hover.png);
+  background-image: url("./assets/linkedin_hover.png");
   background-color: #0e76a8;
   transition: all 0.3s ease-in-out;
 }
 
 .githubLogo:hover { 
-  background-image: url(./assets/github_hover.png);
+  background-image: url("./assets/github_hover.png");
   background-color:  #5c6bc0;
   transition: all 0.3s ease-in-out;
 }
 
 .instagramLogo:hover { 
-  background-image: url(./assets/instagram_hover.png);
+  background-image: url("./assets/instagram_hover.png");
   background-color: #ff356a;
+  transition: all 0.3s ease-in-out;
+}
+
+.downloadLogo:hover { 
+  background-image: url("./assets/downloadIcon_hover.png");
+  background-color: var(--color-blue-2);
   transition: all 0.3s ease-in-out;
 }

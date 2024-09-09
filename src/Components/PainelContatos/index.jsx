@@ -10,6 +10,7 @@ const PainelContatos = () => {
   const linkedinRef = useRef();
   const githubRef = useRef();
   const instagramRef = useRef();
+  const downloadRef = useRef();
 
 
   const showText = (ref) => {
@@ -86,11 +87,22 @@ const PainelContatos = () => {
           onMouseEnter={() => showText(instagramRef)}
           onMouseOut={() => hiddenText(instagramRef)}
         />
+
+        <a 
+          href="https://drive.usercontent.google.com/uc?id=1e-UK6nvx_66OE6AeBhtxBP4LIceJj4Ic&export=download"
+          target="_blank"
+          rel="noreferrer"
+          title={t("PainelContatos.rede_download")}
+          className={`${Style.downloadLogo} ${Style.redeIcon}`}
+          onMouseEnter={() => showText(downloadRef)}
+          onMouseOut={() => hiddenText(downloadRef)}
+        />
         <span className={`${Style.emailText} ${Style.redesText}`} ref={emailRef}>netoacrn1@gmail.com</span>
         <span className={`${Style.whatsappText} ${Style.redesText}`} ref={wppRef}>+55 (34) 9.99213-8816</span>
         <span className={`${Style.linkedinText} ${Style.redesText}`} ref={linkedinRef}>Argeu do Carmo Russo Neto</span>
         <span className={`${Style.githubText} ${Style.redesText}`} ref={githubRef}>NetoRusso</span>
         <span className={`${Style.instagramText} ${Style.redesText}`} ref={instagramRef}>@neto.russo</span>
+        <span className={`${Style.downloadText} ${Style.redesText}`} ref={downloadRef} >{t("PainelContatos.rede_download")}</span>
       </div>
     </div>
   )
