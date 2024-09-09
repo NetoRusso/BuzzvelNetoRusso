@@ -156,3 +156,7 @@ ________________________________________________________________________________
 - <h4>Banner</h4>
 	- <p>Banner with greeting and a brief presentation and a stylized photo, with a background video and parallax effect.</p>
 ![Banner](https://github.com/user-attachments/assets/0e0bb763-0f8f-4b4e-9aab-da70535dfdaf)
+
+- <h4>About</h4>
+	- <p>Section about me with a text explaining my searches, and a professional photo, below a timeline component telling my entire journey to date.</p>
+![About](https://github.com/user-attachments/assets/eceac032-2716-4f44-8371-2f5f9e9bf23d)
