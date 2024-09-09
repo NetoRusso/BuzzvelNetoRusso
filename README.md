@@ -135,3 +135,13 @@ approach, with careful attention paid to both technical and design aspects.
 _______________________________________________________________________________________________
 
 <h2>Installation and requirements</h2>
+
+### Node version v18.15.0 or higher
+### npm version v9.5.0 or higher
+
+```
+bash
+
+npm install --save
+
+```
