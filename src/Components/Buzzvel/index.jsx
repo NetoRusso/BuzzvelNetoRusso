@@ -8,6 +8,7 @@ import PortifolioBuzzvel from "../PortifolioBuzzvel";
 import pause from './assets/pause.png';
 import play from './assets/play.png';
 import ScrollAnimation from "react-animate-on-scroll";
+import TimelineBuzz from "../TimelineBuzz";
 
 const Buzzvel = () => {
 
@@ -70,6 +71,10 @@ const Buzzvel = () => {
         <div className={Style.buzzvelPortifolio}>
           <h2 className={`${Style.buzzvelPortifolioTitle} ${Style.buzzvelTitle}`}>{t("Buzzvel.portfolio")}</h2>
           <PortifolioBuzzvel />
+        </div>
+        <div className={Style.timelineBuzzvel}>
+          <h2 className={`${Style.timelineBuzzvelTitle} ${Style.buzzvelTitle}`}>{t("Buzzvel.timeline")}</h2>
+          <TimelineBuzz />
         </div>
       </div>
       <div className={Style.buzzvelDetail2} />
