@@ -148,3 +148,11 @@ npm install --save
 _______________________________________________________________________________________________
 
 <h2>Result</h2>
+
+- <h4>Menu</h4>
+	- <p>Fully interactive and intuitive menu with graphic effects for user understanding, a tool for changing the site's default language was also implemented.</p>
+![Menu_Redu](https://github.com/user-attachments/assets/d17654f8-a12a-4702-8739-61b89e9242c3)
+
+- <h4>Banner</h4>
+	- <p>Banner with greeting and a brief presentation and a stylized photo, with a background video and parallax effect.</p>
+![Banner](https://github.com/user-attachments/assets/0e0bb763-0f8f-4b4e-9aab-da70535dfdaf)
