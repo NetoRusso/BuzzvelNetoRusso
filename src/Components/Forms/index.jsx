@@ -1,11 +1,16 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import Style from "./forms.module.css";
 import { useTranslation } from "react-i18next";
 import emailjs from '@emailjs/browser';
+import env from "react-dotenv";
 
 
 const Forms = () => {
   const { t } = useTranslation();
+
+  const EMAILJS_SERVICE = process.env.REACT_APP_EMAILJS_SERVICE;
+  const EMAILJS_TEMPLATE = process.env.REACT_APP_EMAILJS_TEMPLATE;
+  const EMAILJS_API_KEY = process.env.REACT_APP_EMAILJS_API_KEY;
 
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -35,10 +40,10 @@ const Forms = () => {
     }
 
     emailjs.send(
-      "service_ieh8z3o",
-      "template_t4wa55t",
+      EMAILJS_SERVICE,
+      EMAILJS_TEMPLATE,
       templateParams,
-      "T7nQC9CTpaL0OgPfV"
+      EMAILJS_API_KEY
     ).then((response) => {
       if (response.status === 200) {
         messageOk.current.innerText = t("Form.message_ok");
