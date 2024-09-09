@@ -11,6 +11,7 @@
   --color-yellow: #FBAE54;
 
   --color-black-buzzvel: #000000;
+  --color-red-buzzvel: #c2311b;
 
   --font-menu: clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);
   --font-title-1: clamp(1.5rem, 1.1538rem + 1.5385vw, 3rem); 
