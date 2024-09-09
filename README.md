@@ -149,16 +149,19 @@ ________________________________________________________________________________
 
 <h2>Result</h2>
 
-- <h4>Menu</h4>
-	- <p>Fully interactive and intuitive menu with graphic effects for user understanding, a tool for changing the site's default language was also implemented.</p>
+ - <h4>Menu</h4>
+	
+	 -  <p>Fully interactive and intuitive menu with graphic effects for user understanding, a tool for changing the site's default language was also implemented.</p>
 ![Menu_Redu](https://github.com/user-attachments/assets/d17654f8-a12a-4702-8739-61b89e9242c3)
 
-- <h4>Banner</h4>
-	- <p>Banner with greeting and a brief presentation and a stylized photo, with a background video and parallax effect.</p>
+ - <h4>Banner</h4>
+	
+	 - <p>Banner with greeting and a brief presentation and a stylized photo, with a background video and parallax effect.</p>
 ![Banner](https://github.com/user-attachments/assets/0e0bb763-0f8f-4b4e-9aab-da70535dfdaf)
 
-- <h4>About</h4>
-	- <p>Section about me with a text explaining my searches, and a professional photo, below a timeline component telling my entire journey to date.</p>
+ - <h4>About</h4>
+
+	 - <p>Section about me with a text explaining my searches, and a professional photo, below a timeline component telling my entire journey to date.</p>
 ![About](https://github.com/user-attachments/assets/eceac032-2716-4f44-8371-2f5f9e9bf23d)
 
 - <h4>Projects</h4>
@@ -167,9 +170,12 @@ ________________________________________________________________________________
 ![Projetos](https://github.com/user-attachments/assets/fbbdb5f8-f1b6-4970-97f2-0bf73b061bca)
 
 
-- <h4>Buzzvel</h4>
-	-<p>Buzzvel Opportunity Component</p>
- 		-	<P>The first part is the "why Buzzvel" component that varies automatically showing the reasons for working at the company</P>
-   		-	<p></p>
+ - <h4>Buzzvel</h4>
+
+	 - <p>Buzzvel Opportunity Component</p>
+	 
+   		- <p>The first part is the "why Buzzvel" component that varies automatically showing the reasons for working at the company with a button that pauses the changes.</p>
+   		- <p>Below, a draggable carousel with interactive cards showing some projects from Buzzvel's portfolio</p>
+   		- <p>A timeline showing my future perspective with Buzzvel</p>
 
  ![Buzzvel](https://github.com/user-attachments/assets/a30af17b-fa2e-458d-bd01-fc3545c405eb)
