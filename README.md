@@ -8,7 +8,7 @@ ________________________________________________________________________________
 =====================================
 <!--ts-->
 <p align="left">
-<a href="#projeto" color="#ffffff"> Scopo do Projeto </a>
+<a href="#projeto" color=#ffffff> Scopo do Projeto </a>
 </p>
 <p align="left">
 <a href="#tecnologia"> Tecnologias Utilizadas </a>
