@@ -7,8 +7,10 @@ ________________________________________________________________________________
 **Guia
 =====================================
 <!--ts-->
-*[Projeto](#projeto)
-*[Tecnologia](#tecnologia)
-*[Como Usar](#comoUsar)
-*[Resultados](#resultados)
+<p align="center">
+<a href="#projeto"> Scopo do Projeto </a>
+<a href="#tecnologia"> Tecnologias Utilizadas </a>
+<a href="#comoUsar"> Como Usar </a>
+<a href="#resultados"> Resultados </a>
+</p>
 <!--te-->
