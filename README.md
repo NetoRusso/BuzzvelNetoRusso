@@ -165,3 +165,11 @@ ________________________________________________________________________________
 
 	- <p> Exhibition section of my main projects, contains a slide with cards mentioning the main languages ​​used and with a link to the github and posted website.</p>
 ![Projetos](https://github.com/user-attachments/assets/fbbdb5f8-f1b6-4970-97f2-0bf73b061bca)
+
+
+- <h4>Buzzvel</h4>
+	-<p>Buzzvel Opportunity Component</p>
+ 		-	<P>The first part is the "why Buzzvel" component that varies automatically showing the reasons for working at the company</P>
+   		-	<p></p>
+
+ ![Buzzvel](https://github.com/user-attachments/assets/a30af17b-fa2e-458d-bd01-fc3545c405eb)
