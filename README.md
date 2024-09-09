@@ -3,22 +3,22 @@
 
 __________________________________________________________________________________________________________________________________________________
 
+<p>I developed a custom landing page to demonstrate my skills and enthusiasm for being part of the Buzzvel team. The project, built with React.js and optimized for SEO, presents an interactive portfolio with my main work, including projects aligned with Buzzvel's objectives. Through animations and a responsive design, the microsite offers an immersive and intuitive experience, making it easier to navigate and understand my profile. Additionally, I've included a detailed roadmap that demonstrates how my skills and goals fit perfectly into Buzzvel's growth. I am sure that my experience and passion for web development can add great value to the team.</p>
+
+__________________________________________________________________________________________________________________________________________________
+
 Guia
 =====================================
 
- - [Project scope ](#Projeto)
+ - [Project scope ](#projeto)
  - [Tecnologias Utilizadas](#tecnologia)
  - [Instalação de dependências](#install)
  - [Resultado](#resultado)
 
 -----------------
 
-<h2 id=#Projeto"> Project scope</h2>
+<h2 id="#projeto"> Project scope</h2>
 <img src="./src/Components/Buzzvel/assets/logo-light.svg" width="100" height="100">
-<p>Create a microsite that showcases your experience, explains why you want to
-work at Buzzvel, integrates a slideshow of Buzzvel projects, features animations, is
-SEO optimized, fully responsive, and includes a timeline outlining your envisioned
-career progression at Buzzvel. You can use React, Next.js, or React Native.</p>
 
 <p>Related to design, you are free to create anything.</p>
 
