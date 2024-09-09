@@ -9,8 +9,14 @@ ________________________________________________________________________________
 <!--ts-->
 <p align="center">
 <a href="#projeto"> Scopo do Projeto </a>
+</p>
+<p align="center">
 <a href="#tecnologia"> Tecnologias Utilizadas </a>
+</p>
+<p align="center">
 <a href="#comoUsar"> Como Usar </a>
+</p>
+<p align="center">
 <a href="#resultados"> Resultados </a>
 </p>
 <!--te-->
