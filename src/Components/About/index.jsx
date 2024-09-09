@@ -33,8 +33,10 @@ const About = () => {
       <ScrollAnimation
         animateIn='fadeInUp fadeIn'
         animateOnce={true}
+        style={{
+          width: "100%"
+        }}
       >
-
         <div className={Style.detail} />
         <Timeline />
         <div className={Style.detail2} />
