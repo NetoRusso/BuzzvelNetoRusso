@@ -1,4 +1,4 @@
-<h1 align='center'> <a href="https://buzzvel-neto-russo.vercel.app/"  target="_blank">![logo](https://drive.google.com/file/d/1BK2E9Ycix_9K-rwgJJsjMA3_WDFWEdTv/view?usp=sharing)</a> Neto Russo || Desenvolvedor Front-end || Portifólio</h1>
+<h1 align='center'> <a href="https://buzzvel-neto-russo.vercel.app/"  target="_blank"><img src="https://drive.google.com/file/d/1BK2E9Ycix_9K-rwgJJsjMA3_WDFWEdTv/view?usp=sharing" ></a> Neto Russo || Desenvolvedor Front-end || Portifólio</h1>
 
 <p align='center'>"Desenvolvedor Front-end e Back-end com experiência em React.js, JavaScript, Java e outras tecnologias. Veja meu portifólio e entre em contato!"</p>
 
