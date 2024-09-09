@@ -7,16 +7,16 @@ ________________________________________________________________________________
 **Guia
 =====================================
 <!--ts-->
-<p align="center">
+<p align="left">
 <a href="#projeto"> Scopo do Projeto </a>
 </p>
-<p align="center">
+<p align="left">
 <a href="#tecnologia"> Tecnologias Utilizadas </a>
 </p>
-<p align="center">
+<p align="left">
 <a href="#comoUsar"> Como Usar </a>
 </p>
-<p align="center">
+<p align="left">
 <a href="#resultados"> Resultados </a>
 </p>
 <!--te-->
