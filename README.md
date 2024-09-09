@@ -179,3 +179,21 @@ ________________________________________________________________________________
    		- <p>A timeline showing my future perspective with Buzzvel</p>
 
  ![Buzzvel](https://github.com/user-attachments/assets/a30af17b-fa2e-458d-bd01-fc3545c405eb)
+
+ - <h4>Contact</h4>
+
+	 -  <p>Contact area with a functional form for up to 200 messages per month and aligned with the page design, section with complementary skills and links to social networks and download the CV in Portuguese</p>
+
+  
+![contact](https://github.com/user-attachments/assets/c4ea339b-849a-4dfe-a758-f167494efc51)
+
+ - <h4>Extra details</h4>
+
+	 - <p>The entire project is responsive to all screen types, the menu is in the lower left-hand position to improve accessibility and ease of use with just one hand.</p>
+
+	 - <p>The screen scrolling is smooth and there is animation for the appearance of input to the components, making the entire project more harmonious.</p>
+
+
+ ![Responsive](https://github.com/user-attachments/assets/5ac60fb5-bb48-449e-b42a-f757e7b676a8)
+
+ #BORACODAR
