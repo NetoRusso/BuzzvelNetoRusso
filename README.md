@@ -1,4 +1,4 @@
-<h1 align='center'> <a href="https://buzzvel-neto-russo.vercel.app/"  target="_blank"><img src="./public/Favicon.png" width="48" heigth="48"></a> Neto Russo || Desenvolvedor Front-end || Portifólio</h1>
+<h1 align='center'> <a href="https://buzzvel-neto-russo.vercel.app/"  target="_blank"><img src="./public/Favicon.png" width="48" heigth="48"></a> Neto Russo || Dev. Front-end || Portifólio</h1>
 <p align='center'>"Desenvolvedor Front-end e Back-end com experiência em React.js, JavaScript, Java e outras tecnologias. Veja meu portifólio e entre em contato!"</p>
 
 __________________________________________________________________________________________________________________________________________________
@@ -14,7 +14,7 @@ Guia
 
  - [Project scope ](#Project-scope)
  - [Installation and requirements](#Installation-and-requirements)
- - [Resultado](#resultado)
+ - [Result](#Result)
 
 -----------------
 
@@ -145,3 +145,6 @@ bash
 npm install --save
 
 ```
+_______________________________________________________________________________________________
+
+<h2>Result</h2>
