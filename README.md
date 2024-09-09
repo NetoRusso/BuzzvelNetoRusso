@@ -3,6 +3,8 @@
 
 __________________________________________________________________________________________________________________________________________________
 
+![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
 <p>I developed a custom landing page to demonstrate my skills and enthusiasm for being part of the Buzzvel team. The project, built with React.js and optimized for SEO, presents an interactive portfolio with my main work, including projects aligned with Buzzvel's objectives. Through animations and a responsive design, the microsite offers an immersive and intuitive experience, making it easier to navigate and understand my profile. Additionally, I've included a detailed roadmap that demonstrates how my skills and goals fit perfectly into Buzzvel's growth. I am sure that my experience and passion for web development can add great value to the team.</p>
 
 __________________________________________________________________________________________________________________________________________________
@@ -10,14 +12,13 @@ ________________________________________________________________________________
 Guia
 =====================================
 
- - [Project scope ](#projeto)
- - [Tecnologias Utilizadas](#tecnologia)
- - [Instalação de dependências](#install)
+ - [Project scope ](#Project-scope)
+ - [Installation and requirements](#Installation-and-requirements)
  - [Resultado](#resultado)
 
 -----------------
 
-<h2 id="#projeto"> Project scope</h2>
+<h2>Project scope</h2>
 <img src="./src/Components/Buzzvel/assets/logo-light.svg" width="100" height="100">
 
 <p>Related to design, you are free to create anything.</p>
@@ -131,3 +132,6 @@ will be checked.
 	- Attention to Detail: The project should demonstrate a comprehensive
 approach, with careful attention paid to both technical and design aspects.
 
+_______________________________________________________________________________________________
+
+<h2>Installation and requirements</h2>
